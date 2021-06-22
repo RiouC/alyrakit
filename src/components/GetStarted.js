@@ -1,4 +1,4 @@
-import { Box, Badge, Heading, Text, Button, Container } from "@chakra-ui/react"
+import { Box, Badge, Heading, Text, Button, Container } from "@chakra-ui/react";
 const GetStarted = () => {
   return (
     <Box
@@ -11,7 +11,9 @@ const GetStarted = () => {
     >
       <Container maxWidth="container.md">
         <Badge colorScheme="whiteAlpha">Get Started</Badge>
-        <Heading mb="6">Get AlyraKit and save your time</Heading>
+        <Heading mb="6" fontFamily="special">
+          Get AlyraKit and save your time
+        </Heading>
         <Text fontSize="lg" mb="6">
           Stop wasting time trying to do it the "right way" and build a site
           from scratch. AlyraKit is faster, easier, and you still have complete
@@ -22,7 +24,7 @@ const GetStarted = () => {
         </Button>
       </Container>
     </Box>
-  )
-}
+  );
+};
 
-export default GetStarted
+export default GetStarted;

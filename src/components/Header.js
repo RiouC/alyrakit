@@ -1,5 +1,5 @@
-import { Container, Heading, Text, Button, Stack, Box } from "@chakra-ui/react"
-import monitor from "../assets/monitor.svg"
+import { Container, Heading, Text, Button, Stack, Box } from "@chakra-ui/react";
+import monitor from "../assets/monitor.svg";
 
 const Header = () => {
   return (
@@ -12,7 +12,7 @@ const Header = () => {
         alignItems="center"
       >
         <Box flex="1">
-          <Heading as="h1" mb="6">
+          <Heading as="h1" mb="6" fontFamily="special">
             Welcome to{" "}
             <Text as="span" color="teal">
               AlyraKit.
@@ -37,7 +37,7 @@ const Header = () => {
         </Box>
       </Stack>
     </Container>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
