@@ -36,7 +36,7 @@ const ListFeatures = () => {
             />
           </Box>
           <Box flex="1">
-            <Heading mb="6">
+            <Heading mb="6" fontFamily="special">
               The most useful resource ever created for designers
             </Heading>
             <List

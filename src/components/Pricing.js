@@ -38,7 +38,7 @@ const Pricing = () => {
   return (
     <Box as="section" bg="gray.50" id="pricing" py="20">
       <Container maxW="container.md">
-        <Heading textAlign="center" mb="6">
+        <Heading textAlign="center" mb="6" fontFamily="special">
           Fair, simple pricing for all
         </Heading>
 

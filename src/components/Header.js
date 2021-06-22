@@ -12,7 +12,7 @@ const Header = () => {
         alignItems="center"
       >
         <Box flex="1">
-          <Heading as="h1" mb="6">
+          <Heading as="h1" mb="6" fontFamily="special">
             Welcome to{" "}
             <Text as="span" color="teal">
               AlyraKit.
