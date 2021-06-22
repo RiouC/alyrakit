@@ -6,6 +6,7 @@ import {
   List,
   ListItem,
   ListIcon,
+  // SimpleGrid
 } from "@chakra-ui/react"
 import working from "../assets/working.svg"
 import { CheckCircleIcon } from "@chakra-ui/icons"
@@ -50,6 +51,21 @@ const ListFeatures = () => {
                 )
               })}
             </List>
+            {/*
+            <SimpleGrid as={List}
+              columns="2" spacing="2"
+            >
+              {list.map((el, index) => {
+                return (
+                  <ListItem key={index}>
+                    <ListIcon as={CheckCircleIcon} color="teal.300" />
+                    {el}
+                  </ListItem>
+                )
+              })}
+            </SimpleGrid>
+            
+            */}
           </Box>
         </Stack>
       </Container>

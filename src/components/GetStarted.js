@@ -17,7 +17,7 @@ const GetStarted = () => {
           from scratch. AlyraKit is faster, easier, and you still have complete
           control.
         </Text>
-        <Button colorScheme="teal" size="lg" bg="teal.500">
+        <Button colorScheme="teal" size="lg">
           Buy now
         </Button>
       </Container>
