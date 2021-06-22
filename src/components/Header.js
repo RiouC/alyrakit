@@ -9,8 +9,9 @@ const Header = () => {
         sx={{
           gap: "2rem",
         }}
+        alignItems="center"
       >
-        <Box>
+        <Box flex="1">
           <Heading as="h1" mb="6">
             Welcome to{" "}
             <Text as="span" color="teal">
@@ -26,7 +27,7 @@ const Header = () => {
             Buy it now
           </Button>
         </Box>
-        <Box>
+        <Box flex="1">
           <img
             src={monitor}
             alt="Illustration with a computer on the desk"

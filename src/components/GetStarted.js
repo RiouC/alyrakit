@@ -1,15 +1,27 @@
+import { Box, Badge, Heading, Text, Button, Container } from "@chakra-ui/react"
 const GetStarted = () => {
   return (
-    <section id="buy-now">
-      <span>Get Started</span>
-      <h2>Get AlyraKit and save your time</h2>
-      <p>
-        Stop wasting time trying to do it the "right way" and build a site from
-        scratch. AlyraKit is faster, easier, and you still have complete
-        control.
-      </p>
-      <button>Buy now</button>
-    </section>
+    <Box
+      as="section"
+      textAlign="center"
+      bg="teal.900"
+      py="20"
+      color="white"
+      id="buy-now"
+    >
+      <Container maxWidth="container.md">
+        <Badge colorScheme="whiteAlpha">Get Started</Badge>
+        <Heading mb="6">Get AlyraKit and save your time</Heading>
+        <Text fontSize="lg" mb="6">
+          Stop wasting time trying to do it the "right way" and build a site
+          from scratch. AlyraKit is faster, easier, and you still have complete
+          control.
+        </Text>
+        <Button colorScheme="teal" size="lg" bg="teal.500">
+          Buy now
+        </Button>
+      </Container>
+    </Box>
   )
 }
 
